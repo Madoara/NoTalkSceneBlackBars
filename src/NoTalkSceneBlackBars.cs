@@ -7,9 +7,9 @@ using UnityEngine.UI;
 [BepInPlugin(
     "com.mado.koikatsu.noblackbars",
     "Koikatsu No TalkScene Black Bars",
-    "1.2")]
+    "1.0")]
 [BepInDependency(KoikatuAPI.GUID, KoikatuAPI.VersionConst)]
-public class TalkSceneNoBlackBars : BaseUnityPlugin
+public class NoTalkSceneBlackBars : BaseUnityPlugin
 {
     private bool wasInTalkScene = false;
 
@@ -64,3 +64,4 @@ public class TalkSceneNoBlackBars : BaseUnityPlugin
         Logger.LogInfo("Image_BackGround restored after TalkScene exit.");
     }
 }
+
